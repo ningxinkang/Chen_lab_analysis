@@ -58,7 +58,7 @@ This analysis was done using all the samples: 82 samples are AD, 77 samples are 
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20AD%20vs.%20Control_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20AD%20vs.%20Control_GSEA.png)
 #### 3.1.2 Sex (F vs. M)
-This analysis was done using all the samples: 85 samples are Female, 74 samples are Male.
+This analysis was done using all the samples: 354 samples are Female, 221 samples are Male.
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20F%20vs.%20M_vocano.png)
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20F%20vs.%20M_candidates.csv)
@@ -67,26 +67,26 @@ This analysis was done using all the samples: 85 samples are Female, 74 samples 
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20F%20vs.%20M_GSEA.png)
 #### 3.1.3 ApoE_carrier (carrier vs. no_carrier)
-This analysis was done using all the samples: 53 samples are APOE4 carriers, 106 samples are not APOE4 carriers.
+This analysis was done using all the samples: 112 samples are APOE4 carriers, 463 samples are not APOE4 carriers.
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20carrier%20vs.%20no_carrier_vocano.png)
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20carrier%20vs.%20no_carrier_candidates.csv)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20carrier%20vs.%20no_carrier.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ Not enough up-regulated DE genes `adj.p < 0.05` and `log2FC > 0.25`.
++ [GO enrichment analysis on up-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20carrier%20vs.%20no_carrier_up_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC > 0.25`.
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20carrier%20vs.%20no_carrier_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM10:%20carrier%20vs.%20no_carrier_GSEA.png)
 ### 3.2 On AD samples
 #### 3.2.1 Sex (F vs. M)
-This analysis was done using AD samples: 48 samples are AD, 34 samples are Control.
+This analysis was done using AD samples: 265 samples are female, 125 samples are male.
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20F%20vs.%20M_vocano.png)
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20F%20vs.%20M_candidates.csv)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20F%20vs.%20M.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
 + [GO enrichment analysis on up-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20F%20vs.%20M_up_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC > 0.25`.
-+ [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
++ No enriched GO pathway found DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20F%20vs.%20M_GSEA.png)
 #### 3.2.2 ApoE_carrier (carrier vs. no_carrier)
-This analysis was done using AD samples: 43 samples are ApoE_carrier, 39 samples are not ApoE_carrier.
+This analysis was done using AD samples: 90 samples are ApoE_carrier, 300 samples are not ApoE_carrier.
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20carrier%20vs.%20no_carrier_vocano.png)
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20carrier%20vs.%20no_carrier_candidates.csv)
@@ -96,20 +96,20 @@ This analysis was done using AD samples: 43 samples are ApoE_carrier, 39 samples
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20carrier%20vs.%20no_carrier_GSEA.png)
 ### 3.3 On Control samples
 #### 3.3.1 Sex (F vs. M)
-This analysis was done using AD samples: 37 samples are AD, 40 samples are Control.
+This analysis was done using Control samples: 89 samples are Female, 96 samples are male.
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20F%20vs.%20M_vocano.png)
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20F%20vs.%20M_candidates.csv)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20F%20vs.%20M.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ Not enough upregulated DE genes `adj.p < 0.05` and `log2FC > 0.25`.
++ [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20F%20vs.%20M_up_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC > 0.25`.
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM10:%20F%20vs.%20M_GSEA.png)
 #### 3.3.2 ApoE_carrier (carrier vs. no_carrier)
-This analysis was done using AD samples: 10 samples are ApoE_carrier, 67 samples are not ApoE_carrier.
+This analysis was done using Control samples: 22 samples are ApoE_carrier, 163 samples are not ApoE_carrier.
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20carrier%20vs.%20no_carrier_vocano.png)
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20carrier%20vs.%20no_carrier_candidates.csv)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20carrier%20vs.%20no_carrier.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ Not enough upregulated and downregulated DE genes.
++ No enriched GO pathway terms found using upregulated and downregulated DE genes.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM10:%20carrier%20vs.%20no_carrier_GSEA.png)
 
