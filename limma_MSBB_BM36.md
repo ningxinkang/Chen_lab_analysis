@@ -67,8 +67,9 @@ This analysis was done using all the samples: 82 samples are AD, 77 samples are 
 | ENSG00000198911 | \-0.0279199    | 7.8589587  | \-0.4819332 | 0.63012103 | 0.71415945 | \-6.6535684 | SREBF2       |
 | ENSG00000204310 | 0.01074232     | 3.86184724 | 0.13867514  | 0.88977772 | 0.91941945 | \-6.6538179 | AGPAT1       |
 | ENSG00000169710 | 0.0050265      | 7.97792816 | 0.06196064  | 0.9506256  | 0.96467105 | \-6.7624102 | FASN         |
+
+![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20AD%20vs.%20Control_vocano.png)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20AD%20vs.%20Control.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ [Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20AD%20vs.%20Control_vocano.png)
 + [GO enrichment analysis on up-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20AD%20vs.%20Control_up_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC > 0.25`.
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20AD%20vs.%20Control_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 #### 3.1.2 Sex (F vs. M)
@@ -90,13 +91,35 @@ This analysis was done using all the samples: 85 samples are Female, 74 samples 
 | ENSG00000198911 | 0.00672512     | 7.8589587  | 0.11901959  | 0.9053205  | 0.96668127 | \-6.6361776 | SREBF2       |
 | ENSG00000185000 | \-0.0044383    | 4.05938323 | \-0.078778  | 0.93724917 | 0.97927057 | \-6.5692697 | DGAT1        |
 | ENSG00000177666 | \-0.0012682    | 3.76490474 | \-0.0181628 | 0.98551821 | 0.99549675 | \-6.5345155 | PNPLA2       |
+
+![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20F%20vs.%20M_vocano.png)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20F%20vs.%20M.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ [Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20F%20vs.%20M_vocano.png)
 + [GO enrichment analysis on up-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20F%20vs.%20M_up_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC > 0.25`.
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 #### 3.1.3 ApoE_carrier (carrier vs. no_carrier)
 This analysis was done using all the samples: 53 samples are APOE4 carriers, 106 samples are not APOE4 carriers.
+| gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
+| --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
+| ENSG00000110090 | \-0.3195179    | 5.48011614 | \-4.5748202 | 6.39E-06   | 0.00164011 | 3.60353095  | CPT1A        |
+| ENSG00000119927 | \-0.2642946    | 6.1387974  | \-4.2007864 | 3.29E-05   | 0.00355731 | 2.10405817  | GPAM         |
+| ENSG00000204310 | \-0.3452718    | 3.86184724 | \-3.2328486 | 0.00132885 | 0.02386095 | \-1.1622333 | AGPAT1       |
+| ENSG00000177666 | \-0.1772404    | 3.76490474 | \-1.814472  | 0.0703656  | 0.22333734 | \-4.4968762 | PNPLA2       |
+| ENSG00000134324 | \-0.048034     | 6.97282936 | \-1.5893002 | 0.11279484 | 0.29046032 | \-4.9566768 | LPIN1        |
+| ENSG00000075239 | \-0.0810274    | 5.78662211 | \-1.4402611 | 0.1505878  | 0.34200404 | \-5.1775082 | ACAT1        |
+| ENSG00000278540 | \-0.0578406    | 7.76673825 | \-1.3554864 | 0.17603928 | 0.37276056 | \-5.272617  | ACACA        |
+| ENSG00000147872 | \-0.1512533    | 3.59779573 | \-1.3514749 | 0.17731892 | 0.37406979 | \-5.1724976 | PLIN2        |
+| ENSG00000165029 | \-0.1062876    | 6.38275749 | \-1.3325449 | 0.18345147 | 0.38156557 | \-5.3210548 | ABCA1        |
+| ENSG00000198911 | \-0.0715956    | 7.8589587  | \-0.898995  | 0.36920448 | 0.56881662 | \-5.7619715 | SREBF2       |
+| ENSG00000185000 | \-0.0688368    | 4.05938323 | \-0.8721    | 0.38368502 | 0.58058324 | \-5.7240557 | DGAT1        |
+| ENSG00000064687 | 0.06680152     | 4.04403847 | 0.59299281  | 0.55352624 | 0.71528444 | \-5.926073  | ABCA7        |
+| ENSG00000112972 | \-0.0537988    | 6.65848966 | \-0.5418246 | 0.58824564 | 0.74035025 | \-6.0283245 | HMGCS1       |
+| ENSG00000169710 | 0.05365512     | 7.97792816 | 0.48075476  | 0.6309577  | 0.7722225  | \-6.0332194 | FASN         |
+| ENSG00000072310 | 0.02931445     | 6.06929476 | 0.24480794  | 0.80673262 | 0.88548371 | \-6.1433854 | SREBF1       |
 
+![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier_vocano.png)
++ [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
++ [GO enrichment analysis on up-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier_up_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC > 0.25`.
++ [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 ### 3.2 On AD samples
 
 #### 3.2.1 Sex (F vs. M)
