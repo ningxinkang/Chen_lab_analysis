@@ -125,7 +125,7 @@ This analysis was done using all the samples: 55 samples are APOE4 carriers, 389
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier_GSEA.png)
 ### 3.2 On AD samples
 #### 3.2.1 Sex (F vs. M)
-This analysis was done using AD samples: 207 samples are AD, 82 samples are Control.
+This analysis was done using AD samples: 207 samples are Female, 82 samples are Male.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000075239 | 0.11833001     | 5.78327843 | 2.43885137  | 0.01539944 | 0.14487495 | \-3.6456619 | ACAT1        |
@@ -176,7 +176,7 @@ This analysis was done using AD samples: 41 samples are ApoE_carrier, 248 sample
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM36:%20carrier%20vs.%20no_carrier_GSEA.png)
 ### 3.3 On Control samples
 #### 3.3.1 Sex (F vs. M)
-This analysis was done using AD samples: 71 samples are AD, 84 samples are Control.
+This analysis was done using AD samples: 71 samples are Female, 84 samples are Male.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000165029 | \-0.1912689    | 6.10410129 | \-2.4200266 | 0.01684538 | 0.37280535 | \-4.9767983 | ABCA1        |
