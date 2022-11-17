@@ -6,7 +6,7 @@
 + Limma pipeline
 ### MSBB (Mount Sinai brain Bank)
 #### Anterior prefrontal cortex (BM10)
-+ DESeq2 pipeline
++ [DESeq2 pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_MSBB_BM10.md)
 + Limma pipeline
 #### Superior temporal gyrus (BM22)
 + DESeq2 pipeline
