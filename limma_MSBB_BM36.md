@@ -120,7 +120,7 @@ This analysis was done using all the samples: 55 samples are APOE4 carriers, 389
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier_vocano.png)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ Not enough up-regulated DE genes `adj.p < 0.05` and `log2FC > 0.25`.
++ No enriched GO pathay found using up-regulated DE genes `adj.p < 0.05` and `log2FC > 0.25`.
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier_GSEA.png)
 ### 3.2 On AD samples
@@ -197,7 +197,7 @@ This analysis was done using Control samples: 71 samples are Female, 84 samples 
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM36:%20F%20vs.%20M_vocano.png)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM36:%20F%20vs.%20M.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ Not enough upregulated DE genes `adj.p < 0.05` and `log2FC > 0.25`.
++ No enriched GO pathway found using upregulated DE genes `adj.p < 0.05` and `log2FC > 0.25`.
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM36:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM36:%20F%20vs.%20M_GSEA.png)
 #### 3.3.2 ApoE_carrier (carrier vs. no_carrier)
@@ -222,6 +222,6 @@ This analysis was done using Control samples: 14 samples are ApoE_carrier, 141 s
 
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM36:%20carrier%20vs.%20no_carrier_vocano.png)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM36:%20carrier%20vs.%20no_carrier.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ Not enough upregulated and downregulated DE genes.
++ No enriched GO pathway found using upregulated and downregulated DE genes.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM36:%20carrier%20vs.%20no_carrier_GSEA.png)
 
