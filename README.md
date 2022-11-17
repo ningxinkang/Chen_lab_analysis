@@ -12,7 +12,7 @@
 + DESeq2 pipeline
 + Limma pipeline
 #### Parahippocampal gyrus (BM36)
-+ DESeq2 pipeline
++ [DESeq2 pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_MSBB_BM36.md)
 + Limma pipeline
 #### Inferior frontal gyrus (BM44)
 + DESeq2 pipeline
