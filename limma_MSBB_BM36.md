@@ -4,21 +4,21 @@
 
 | sample type | Female | Male | Sum |
 | ----------- | ------ | ---- | --- |
-| AD          | 48     | 34   | 82  |
-| Control     | 37     | 40   | 77  |
-| Sum         | 85     | 74   | 159 |
+| AD          | 207    | 82   | 289 |
+| Control     | 71     | 84   | 155 |
+| Sum         | 278    | 166  | 444 |
 
 | sample type | APOE\_carrier | no\_carrier | Sum |
 | ----------- | ------------- | ----------- | --- |
-| Female      | 35            | 50          | 85  |
-| Male        | 18            | 56          | 74  |
-| Sum         | 53            | 106         | 159 |
+| Female      | 33            | 245         | 278 |
+| Male        | 22            | 144         | 166 |
+| Sum         | 55            | 389         | 444 |
 
 | sample type | APOE\_carrier | no\_carrier | Sum |
 | ----------- | ------------- | ----------- | --- |
-| AD          | 43            | 39          | 82  |
-| Control     | 10            | 67          | 77  |
-| Sum         | 53            | 106         | 159 |
+| AD          | 41            | 248         | 289 |
+| Control     | 14            | 141         | 156 |
+| Sum         | 55            | 389         | 444 |
 
 ## 2. Plan
 
@@ -49,7 +49,7 @@ I aim to perform DE analysis according to three features using **limma pipeline*
 ### 3.1 On all samples
 
 #### 3.1.1 Diagnosis (AD vs. Control)
-This analysis was done using all the samples: 82 samples are AD, 77 samples are Control.
+This analysis was done using all the samples: 289 samples are AD, 155 samples are Control.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000134324 | 0.19068209     | 6.97282936 | 8.66997849  | 1.14E-16   | 2.19E-13   | 27.2287714  | LPIN1        |
@@ -74,7 +74,7 @@ This analysis was done using all the samples: 82 samples are AD, 77 samples are 
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20AD%20vs.%20Control_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20AD%20vs.%20Control_GSEA.png)
 #### 3.1.2 Sex (F vs. M)
-This analysis was done using all the samples: 85 samples are Female, 74 samples are Male.
+This analysis was done using all the samples: 278 samples are Female, 166 samples are Male.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000165029 | \-0.1693936    | 6.38275749 | \-2.9867439 | 0.0029959  | 0.09974548 | \-2.3137491 | ABCA1        |
@@ -99,7 +99,7 @@ This analysis was done using all the samples: 85 samples are Female, 74 samples 
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20F%20vs.%20M_GSEA.png)
 #### 3.1.3 ApoE_carrier (carrier vs. no_carrier)
-This analysis was done using all the samples: 53 samples are APOE4 carriers, 106 samples are not APOE4 carriers.
+This analysis was done using all the samples: 55 samples are APOE4 carriers, 389 samples are not APOE4 carriers.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000110090 | \-0.3195179    | 5.48011614 | \-4.5748202 | 6.39E-06   | 0.00164011 | 3.60353095  | CPT1A        |
@@ -125,7 +125,7 @@ This analysis was done using all the samples: 53 samples are APOE4 carriers, 106
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_all/MSBB_BM36:%20carrier%20vs.%20no_carrier_GSEA.png)
 ### 3.2 On AD samples
 #### 3.2.1 Sex (F vs. M)
-This analysis was done using AD samples: 48 samples are AD, 34 samples are Control.
+This analysis was done using AD samples: 207 samples are AD, 82 samples are Control.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000075239 | 0.11833001     | 5.78327843 | 2.43885137  | 0.01539944 | 0.14487495 | \-3.6456619 | ACAT1        |
@@ -150,7 +150,7 @@ This analysis was done using AD samples: 48 samples are AD, 34 samples are Contr
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM36:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM36:%20F%20vs.%20M_GSEA.png)
 #### 3.2.2 ApoE_carrier (carrier vs. no_carrier)
-This analysis was done using AD samples: 43 samples are ApoE_carrier, 39 samples are not ApoE_carrier.
+This analysis was done using AD samples: 41 samples are ApoE_carrier, 248 samples are not ApoE_carrier.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000119927 | \-0.2968581    | 6.2215515  | \-3.8116053 | 0.0001722  | 0.00798343 | 0.55831887  | GPAM         |
@@ -176,7 +176,7 @@ This analysis was done using AD samples: 43 samples are ApoE_carrier, 39 samples
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM36:%20carrier%20vs.%20no_carrier_GSEA.png)
 ### 3.3 On Control samples
 #### 3.3.1 Sex (F vs. M)
-This analysis was done using AD samples: 37 samples are AD, 40 samples are Control.
+This analysis was done using AD samples: 71 samples are AD, 84 samples are Control.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000165029 | \-0.1912689    | 6.10410129 | \-2.4200266 | 0.01684538 | 0.37280535 | \-4.9767983 | ABCA1        |
@@ -201,7 +201,7 @@ This analysis was done using AD samples: 37 samples are AD, 40 samples are Contr
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM36:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM36:%20F%20vs.%20M_GSEA.png)
 #### 3.3.2 ApoE_carrier (carrier vs. no_carrier)
-This analysis was done using AD samples: 10 samples are ApoE_carrier, 67 samples are not ApoE_carrier.
+This analysis was done using AD samples: 14 samples are ApoE_carrier, 141 samples are not ApoE_carrier.
 | gene\_id        | log2FoldChange | AveExpr    | t           | pvalue     | padj       | B           | gene\_symbol |
 | --------------- | -------------- | ---------- | ----------- | ---------- | ---------- | ----------- | ------------ |
 | ENSG00000147872 | \-0.6334157    | 3.37526583 | \-2.9114325 | 0.00420834 | 0.31631558 | \-2.024389  | PLIN2        |
