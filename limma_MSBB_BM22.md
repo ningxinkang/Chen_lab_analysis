@@ -83,7 +83,7 @@ This analysis was done using AD samples: 249 samples are female, 122 samples are
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM22:%20F%20vs.%20M_candidates.csv)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM22:%20F%20vs.%20M.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
 + [GO enrichment analysis on up-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM22:%20F%20vs.%20M_up_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC > 0.25`.
-+ No enriched GO pathway found DE genes `adj.p < 0.05` and `log2FC < -0.25`.
++ [GO enrichment analysis on up-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM22:%20F%20vs.%20M_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_AD/MSBB_BM22:%20F%20vs.%20M_GSEA.png)
 #### 3.2.2 ApoE_carrier (carrier vs. no_carrier)
 This analysis was done using AD samples: 69 samples are ApoE_carrier, 302 samples are not ApoE_carrier.
@@ -110,5 +110,6 @@ This analysis was done using Control samples: 14 samples are ApoE_carrier, 145 s
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM22:%20carrier%20vs.%20no_carrier_vocano.png)
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM22:%20carrier%20vs.%20no_carrier_candidates.csv)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM22:%20carrier%20vs.%20no_carrier.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ No enriched GO pathway terms found using upregulated and downregulated DE genes.
++ [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM22:%20carrier%20vs.%20no_carrier_up_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC > 0.25`.
++ [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM22:%20carrier%20vs.%20no_carrier_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_limma_Control/MSBB_BM22:%20carrier%20vs.%20no_carrier_GSEA.png)
