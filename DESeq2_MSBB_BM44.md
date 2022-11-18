@@ -106,6 +106,6 @@ This analysis was done using Control samples: 16 samples are ApoE_carrier, 136 s
 ![Volcano plots](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_DESeq2_Control/MSBB_BM44:%20carrier%20vs.%20no_carrier_vocano.png)
 + [DE analysis out of candidate gene list](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_DESeq2_Control/MSBB_BM44:%20carrier%20vs.%20no_carrier_candidates.csv)
 + [DE analysis output spreadsheet](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_DESeq2_Control/MSBB_BM44:%20carrier%20vs.%20no_carrier.csv). Genes in the spreadsheet are sorted by increasing `adj.pvalue`.
-+ + No enriched GO terms found using up-regulated DE genes `adj.p < 0.05` and `log2FC > 0.25`.
++ No enriched GO terms found using up-regulated DE genes `adj.p < 0.05` and `log2FC > 0.25`.
 + [GO enrichment analysis on down-regulated DEGs](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_DESeq2_Control/MSBB_BM44:%20carrier%20vs.%20no_carrier_down_GO.png) was performed on the DE genes `adj.p < 0.05` and `log2FC < -0.25`.
 + [GSEA analysis](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_DESeq2_Control/MSBB_BM44:%20carrier%20vs.%20no_carrier_GSEA.png)
