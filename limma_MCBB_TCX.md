@@ -1,4 +1,4 @@
-# AMP-AD bulk RNA-seq analysis (DESeq2 pipeline) from MCBB-Temporal cortex
+# AMP-AD bulk RNA-seq analysis (limma pipeline) from MCBB-Temporal cortex
 
 ## 1. Dataset
 
