@@ -24,25 +24,26 @@
 
 I aim to perform DE analysis according to three features using **limma pipeline**, as follows:
 
+
 -   On all samples:
 
-    -   Diagnosis (AD vs. Control)
+    -   Diagnosis (AD vs. Control) `count ~ 0 + Diagnosis + Sex + ApoE_carrier`
 
-    -   Sex (F vs. M)
+    -   Sex (F vs. M) `count ~ 0 + Sex + Diagnosis + ApoE_carrier`
 
-    -   ApoE_carrier (carrier vs. no_carrier)
-
--   On AD samples:
-
-    -   Sex (F vs. M)
-
-    -   ApoE_carrier (carrier vs. no_carrier)
+    -   ApoE_carrier (carrier vs. no_carrier) `count ~ 0 + ApoE_carrier + Sex + Diagnosis`
 
 -   On AD samples:
 
-    -   Sex (F vs. M)
+    -   Sex (F vs. M) `count ~ 0 + Sex + ApoE_carrier`
 
-    -   ApoE_carrier (carrier vs. no_carrier)
+    -   ApoE_carrier (carrier vs. no_carrier) `count ~ 0 + ApoE_carrier + Sex`
+
+-   On control samples:
+
+    -   Sex (F vs. M) `count ~ 0 + Sex + ApoE_carrier`
+
+    -   ApoE_carrier (carrier vs. no_carrier) `count ~ 0 + ApoE_carrier + Sex`
 
 ## 3. Result
 
