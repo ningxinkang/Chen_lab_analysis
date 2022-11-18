@@ -3,7 +3,7 @@
 ## AMP-AD analysis
 ### ROSMAP: Dorsolateral prefrontal cortex (DPC)
 + DESeq2 pipeline
-+ [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_MSBB_ROSMAP.md)
++ [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_ROSMAP.md)
 ### MSBB (Mount Sinai brain Bank)
 #### Anterior prefrontal cortex (BM10)
 + DESeq2 pipeline
