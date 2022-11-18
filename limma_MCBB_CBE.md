@@ -1,4 +1,4 @@
-# AMP-AD bulk RNA-seq analysis (DESeq2 pipeline) from MCBB-Cerebellum
+# AMP-AD bulk RNA-seq analysis (limma pipeline) from MCBB-Cerebellum
 
 ## 1. Dataset
 
