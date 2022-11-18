@@ -1,4 +1,4 @@
-# AMP-AD bulk RNA-seq analysis (DESeq2 pipeline) from ROSMAP - Dorsolateral prefrontal cortex (DPC)
+# AMP-AD bulk RNA-seq analysis (limma pipeline) from ROSMAP - Dorsolateral prefrontal cortex (DPC)
 
 ## 1. Dataset
 
