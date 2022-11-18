@@ -26,4 +26,4 @@
 + [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/limma_MCBB_TCX.md)
 
 ## Candidate genes
-+ [Chromogranin A (CgA) (CHGA in human genome)]
++ [Chromogranin A (CgA) (CHGA in human genome)](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_CGA.md)
