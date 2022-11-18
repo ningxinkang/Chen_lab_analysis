@@ -26,5 +26,5 @@
 + [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/limma_MCBB_TCX.md)
 
 ## Candidate genes
-+ [LDs related genes](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_LDs.md)
-+ [Chromogranin A (CgA)](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD_CGA.md)(CHGA in human genome)
++ [LDs related genes](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_LDs.md)
++ [Chromogranin A (CgA)](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_CGA.md)(CHGA in human genome)
