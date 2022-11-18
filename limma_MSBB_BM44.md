@@ -1,4 +1,4 @@
-# AMP-AD bulk RNA-seq analysis (DESeq2 pipeline) from MSBB-Inferior frontal gyrus (BM44)
+# AMP-AD bulk RNA-seq analysis (limma pipeline) from MSBB-Inferior frontal gyrus (BM44)
 
 ## 1. Dataset
 
