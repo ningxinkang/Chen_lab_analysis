@@ -10,7 +10,7 @@
 + [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_MSBB_BM10.md)
 #### Superior temporal gyrus (BM22)
 + DESeq2 pipeline
-+ Limma pipeline
++ [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_MSBB_BM22.md)
 #### Parahippocampal gyrus (BM36)
 + DESeq2 pipeline
 + [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_MSBB_BM36.md)
