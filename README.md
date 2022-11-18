@@ -1,6 +1,6 @@
 # Chen_lab_analysis
 
-## AMP-AD analysis
+## Overall AMP-AD analysis
 ### ROSMAP: Dorsolateral prefrontal cortex (DPC)
 + [DESeq2 pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/DESeq2_ROSMAP.md)
 + [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/limma_ROSMAP.md)
@@ -25,3 +25,5 @@
 + [DESeq2 pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/DESeq2_MCBB_TCX.md)
 + [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/limma_MCBB_TCX.md)
 
+## Candidate genes
++ [Chromogranin A (CgA) (CHGA in human genome)]
