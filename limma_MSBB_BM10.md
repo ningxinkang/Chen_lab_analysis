@@ -1,4 +1,4 @@
-# AMP-AD bulk RNA-seq analysis (DESeq2 pipeline) from MSBB-Anterior prefrontal cortex (BM10)
+# AMP-AD bulk RNA-seq analysis (limma pipeline) from MSBB-Anterior prefrontal cortex (BM10)
 
 ## 1. Dataset
 
