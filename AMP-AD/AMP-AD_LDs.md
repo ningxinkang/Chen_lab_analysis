@@ -112,6 +112,7 @@
 -   On control samples:
 
     -   Sex (F vs. M)
+    
     | gene | MSBB\_BM10 | MSBB\_BM22 | MSBB\_BM36 | MSBB\_BM44 | MCBB\_Temporal cortex | MCBB\_Cerebellum | ROSMAP\_Dorsolateral prefrontal cortex |
     | ---- | ---------- | ---------- | ---------- | ---------- | --------------------- | ---------------- | -------------------------------------- |
     | ACACA      | NA         | NA         | NA         | NA                    | NA               | NA                                     | NA |
