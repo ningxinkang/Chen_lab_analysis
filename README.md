@@ -20,8 +20,8 @@
 ### MCBB (Mayo Clinic Brain Bank)
 #### Cerebellum (CBE)
 + DESeq2 pipeline
-+ Limma pipeline
++ [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_MCBB_CBE.md)
 #### Temporal cortex (TCX)
 + DESeq2 pipeline
-+ Limma pipeline
++ [Limma pipeline](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/limma_MCBB_TCX.md)
 
