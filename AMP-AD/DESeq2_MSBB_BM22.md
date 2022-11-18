@@ -38,7 +38,7 @@ I aim to perform DE analysis according to three features using **DESeq2 pipeline
 
     -   ApoE_carrier (carrier vs. no_carrier)
 
--   On AD samples:
+-   On Control samples:
 
     -   Sex (F vs. M)
 
