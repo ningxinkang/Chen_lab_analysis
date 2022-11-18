@@ -1,4 +1,4 @@
-# AMP-AD bulk RNA-seq analysis (DESeq2 pipeline) from MSBB-parahippocampal gyrus (BM36)
+# AMP-AD bulk RNA-seq analysis (limma pipeline) from MSBB-parahippocampal gyrus (BM36)
 
 ## 1. Dataset
 
