@@ -1,4 +1,4 @@
-# AMP-AD bulk RNA-seq analysis (DESeq2 pipeline) from MSBB-Superior temporal gyrus (BM22)
+# AMP-AD bulk RNA-seq analysis (limma pipeline) from MSBB-Superior temporal gyrus (BM22)
 
 ## 1. Dataset
 
