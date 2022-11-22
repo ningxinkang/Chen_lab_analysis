@@ -1,7 +1,7 @@
 # Chen_lab_analysis
 
 ## Overall AMP-AD analysis (limma pipeline)
-+ [Disease status]
++ [Disease status](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_limma_diagnosis.md)
 + [APOE4 carrier]
 + [APOE4 dose]
 
