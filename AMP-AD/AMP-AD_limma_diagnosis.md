@@ -26,6 +26,15 @@ I use the limma package in R for comprehensive DE analysis, adjusted p-value cal
 #### 3.1.6 MSBB_BM36
 #### 3.1.7 MSBB_BM44
 ### 3.2 Female sample
+| Study                         | Cohort      | Brain Region                         | \# AD | \# Control |
+| ----------------------------- | ----------- | ------------------------------------ | ----- | ---------- |
+| Mayo Clinic Brain Bank (MCBB) | MCBB\_CBE   | Cerebellum                           | 48    | 37         |
+| Mayo Clinic Brain Bank (MCBB) | MCBB\_TCX   | Temporal cortex                      | 49    | 37         |
+| Mount Sinai brain Bank (MSBB) | MSBB\_BM10  | Anterior prefrontal cortex (BM10)    | 78    | 30         |
+| Mount Sinai brain Bank (MSBB) | MSBB\_BM22  | Superior temporal gyrus (BM22)       | 87    | 26         |
+| Mount Sinai brain Bank (MSBB) | MSBB\_BM36  | Parahippocampal gyrus (BM36)         | 84    | 30         |
+| Mount Sinai brain Bank (MSBB) | MSBB\_BM44  | Inferior frontal gyrus (BM44)        | 73    | 25         |
+| ROSMAP                        | ROSMAP\_DPC | Dorsolateral prefrontal cortex (DPC) | 109   | 47         |
 #### 3.2.1 MCBB_CBE
 #### 3.2.2 MCBB_TCX
 #### 3.2.3 ROSMAP_DPC
@@ -34,6 +43,15 @@ I use the limma package in R for comprehensive DE analysis, adjusted p-value cal
 #### 3.2.6 MSBB_BM36
 #### 3.2.7 MSBB_BM44
 ### 3.3 Male sample
+| Study                         | Cohort      | Brain Region                         | \# AD | \# Control |
+| ----------------------------- | ----------- | ------------------------------------ | ----- | ---------- |
+| Mayo Clinic Brain Bank (MCBB) | MCBB\_CBE   | Cerebellum                           | 34    | 40         |
+| Mayo Clinic Brain Bank (MCBB) | MCBB\_TCX   | Temporal cortex                      | 33    | 41         |
+| Mount Sinai brain Bank (MSBB) | MSBB\_BM10  | Anterior prefrontal cortex (BM10)    | 35    | 22         |
+| Mount Sinai brain Bank (MSBB) | MSBB\_BM22  | Superior temporal gyrus (BM22)       | 47    | 22         |
+| Mount Sinai brain Bank (MSBB) | MSBB\_BM36  | Parahippocampal gyrus (BM36)         | 43    | 27         |
+| Mount Sinai brain Bank (MSBB) | MSBB\_BM44  | Inferior frontal gyrus (BM44)        | 33    | 28         |
+| ROSMAP                        | ROSMAP\_DPC | Dorsolateral prefrontal cortex (DPC) | 46    | 39         |
 #### 3.3.1 MCBB_CBE
 #### 3.3.2 MCBB_TCX
 #### 3.3.3 ROSMAP_DPC
