@@ -16,7 +16,8 @@ The analysis is done using bulk RNA-seq from project AMP-AD. There are 3 studies
 ## 2. Method
 I use the limma package in R for comprehensive DE analysis, adjusted p-value calculated after the Benjamini-Hochberg procedure. Genes with adjusted p-value < 0.05 AND absolute log2FC > 0.25 are considered DEGs.
 
-## 3. Result
+## 3. Results
+**Please note: if you fail to find the corresponding GO result in the folder I given, that means there isn't enrich GO terms found.**
 ### 3.1 All sample
 + Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/DE_overall/Diagnosis)
 + Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/candidate/Diagnosis)
