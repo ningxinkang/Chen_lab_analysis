@@ -34,6 +34,14 @@ I use the limma package in R for comprehensive DE analysis, adjusted p-value cal
 | Mount Sinai brain Bank (MSBB) | MSBB\_BM36  | Parahippocampal gyrus (BM36)         | 84    | 30         |
 | Mount Sinai brain Bank (MSBB) | MSBB\_BM44  | Inferior frontal gyrus (BM44)        | 73    | 25         |
 | ROSMAP                        | ROSMAP\_DPC | Dorsolateral prefrontal cortex (DPC) | 109   | 47         |
+
++ Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/DE_overall/Diagnosis)
++ Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/candidate/Diagnosis)
++ [Vocano plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/vocano_plot/Diagnosis)
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/up_GO/Diagnosis) using up-regulated DEGs
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/down_GO/Diagnosis) using down-regulated DEGs
++ [GSEA result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/GSEA/Diagnosis)
+
 ### 3.3 Male sample
 | Study                         | Cohort      | Brain Region                         | \# AD | \# Control |
 | ----------------------------- | ----------- | ------------------------------------ | ----- | ---------- |
@@ -44,5 +52,12 @@ I use the limma package in R for comprehensive DE analysis, adjusted p-value cal
 | Mount Sinai brain Bank (MSBB) | MSBB\_BM36  | Parahippocampal gyrus (BM36)         | 43    | 27         |
 | Mount Sinai brain Bank (MSBB) | MSBB\_BM44  | Inferior frontal gyrus (BM44)        | 33    | 28         |
 | ROSMAP                        | ROSMAP\_DPC | Dorsolateral prefrontal cortex (DPC) | 46    | 39         |
+
++ Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/DE_overall/Diagnosis)
++ Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/candidate/Diagnosis)
++ [Vocano plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/vocano_plot/Diagnosis)
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/up_GO/Diagnosis) using up-regulated DEGs
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/down_GO/Diagnosis) using down-regulated DEGs
++ [GSEA result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/GSEA/Diagnosis)
 
 
