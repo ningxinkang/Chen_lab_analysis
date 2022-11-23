@@ -19,12 +19,12 @@ I use the limma package in R for comprehensive DE analysis, adjusted p-value cal
 ## 3. Results
 **Please note: if you fail to find the corresponding GO result in the folder I given, that means there isn't enrich GO terms found.**
 ### 3.1 All sample
-+ Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/DE_overall/ApoE_dose)
-+ Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/candidate/ApoE_dose)
-+ [Vocano plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/vocano_plot/ApoE_dose)
-+ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/up_GO/ApoE_dose) using up-regulated DEGs
-+ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/down_GO/ApoE_dose) using down-regulated DEGs
-+ [GSEA result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/GSEA/ApoE_dose)
++ Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/DE_overall/APOE_dose)
++ Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/candidate/APOE_dose)
++ [Vocano plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/vocano_plot/APOE_dose)
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/up_GO/APOE_dose) using up-regulated DEGs
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/down_GO/APOE_dose) using down-regulated DEGs
++ [GSEA result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_all/GSEA/APOE_dose)
 ### 3.2 Female sample
 | Study                         | Cohort      | Brain Region                         | APOE\_2 | APOE\_1 | APOE\_0 |
 | ----------------------------- | ----------- | ------------------------------------ | ------- | ------- | ------- |
@@ -36,12 +36,12 @@ I use the limma package in R for comprehensive DE analysis, adjusted p-value cal
 | Mount Sinai brain Bank (MSBB) | MSBB\_BM44  | Inferior frontal gyrus (BM44)        | 2       | 17      | 79      |
 | ROSMAP                        | ROSMAP\_DPC | Dorsolateral prefrontal cortex (DPC) | 2       | 44      | 110     |
 
-+ Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/DE_overall/ApoE_dose)
-+ Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/candidate/ApoE_dose)
-+ [Vocano plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/vocano_plot/ApoE_dose)
-+ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/up_GO/ApoE_dose) using up-regulated DEGs
-+ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/down_GO/ApoE_dose) using down-regulated DEGs
-+ [GSEA result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/GSEA/ApoE_dose)
++ Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/DE_overall/APOE_dose)
++ Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/candidate/APOE_dose)
++ [Vocano plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/vocano_plot/APOE_dose)
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/up_GO/APOE_dose) using up-regulated DEGs
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/down_GO/APOE_dose) using down-regulated DEGs
++ [GSEA result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_F/GSEA/APOE_dose)
 
 ### 3.3 Male sample
 | Study                         | Cohort      | Brain Region                         | APOE\_2 | APOE\_1 | APOE\_0 |
@@ -54,10 +54,9 @@ I use the limma package in R for comprehensive DE analysis, adjusted p-value cal
 | Mount Sinai brain Bank (MSBB) | MSBB\_BM44  | Inferior frontal gyrus (BM44)        | 1       | 10      | 50      |
 | ROSMAP                        | ROSMAP\_DPC | Dorsolateral prefrontal cortex (DPC) | 1       | 26      | 58      |
 
-+ Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/DE_overall/ApoE_dose)
-+ Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/candidate/ApoE_dose)
-+ [Vocano plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/vocano_plot/ApoE_dose)
-+ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/up_GO/ApoE_dose) using up-regulated DEGs
-+ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/down_GO/ApoE_dose) using down-regulated DEGs
-+ [GSEA result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/GSEA/ApoE_dose)
-
++ Spreadsheet of DE analysis result for [all the genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/DE_overall/APOE_dose)
++ Spreadsheet of DE analysis result for [candidate genes](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/candidate/APOE_dose)
++ [Vocano plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/vocano_plot/APOE_dose)
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/up_GO/APOE_dose) using up-regulated DEGs
++ [GO result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/down_GO/APOE_dose) using down-regulated DEGs
++ [GSEA result](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_limma_M/GSEA/APOE_dose)
