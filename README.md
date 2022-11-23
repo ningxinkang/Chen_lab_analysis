@@ -2,8 +2,8 @@
 
 ## Overall AMP-AD analysis (limma pipeline)
 + [Disease status](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_limma_diagnosis.md)
-+ [APOE4 carrier]
-+ [APOE4 dose]
++ [APOE4 carrier](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_limma_APOE_carrier.md)
++ [APOE4 dose](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_limma_APOE_dose.md)
 
 ## Candidate genes
 + [LDs related genes (DESeq2 and limma pipeline summary)](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_LDs.md)
