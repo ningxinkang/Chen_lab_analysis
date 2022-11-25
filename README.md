@@ -9,7 +9,7 @@
 + [LDs related genes (DESeq2 and limma pipeline summary)](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_LDs.md)
 + [LDs related genes (ANOVA)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_ANOVA)
 + [LDs related genes (t-test)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_t)
-+ [LDs related genes (braak stage)]
++ [LDs related genes (braak stage)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_braak)
 + [Chromogranin A (CgA)](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_CGA.md)(CHGA in human genome)
 
 ## Update log
