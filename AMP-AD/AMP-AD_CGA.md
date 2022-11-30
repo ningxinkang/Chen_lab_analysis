@@ -160,9 +160,11 @@
 |MSBB_BM44_M                            |-0.477933241342158 |-0.750366847444102 |0.456496751043426|0.999928424555073|
 
 ## ADRC (plasma exRNA level analysis)
-+ AD: Alzheimer's disease
-+ C: converter (sample diagnosed as AD in the middle of the study)
-+ N: control
+```
+AD: Alzheimer's disease
+C: converter (sample diagnosed as AD in the middle of the study)
+N: control
+```
 
 + Overall, we don't see expression level difference regarding AD vs. control in plasma exRNA level.
 + When looking at the logitudinal change of plasma exRNA level, I also fail to identify any obvious pattern.
