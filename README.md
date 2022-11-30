@@ -6,7 +6,13 @@
 + [APOE4 dose](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_limma_APOE_dose.md)
 
 ## Candidate genes
-+ [LDs related genes (DESeq2 and limma pipeline summary)](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_LDs.md)
++ LDs related genes (limma pipeline summary)
+  + [diagnosis](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/diagnosis)
+  + [diagnosis and sex](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/diagnosis%26sex)
+  + [APOE dose](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/APOE_dose)
+  + [APOE dose and sex](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/APOE_dose%26sex)
+  + [APOE carrier](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/APOE_carrier)
+  + [APOE carrier and sex](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/APOE_carrier%26sex)
 + [LDs related genes (ANOVA)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_ANOVA)
 + [LDs related genes (t-test)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_t)
 + [LDs related genes (braak stage)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_braak)
