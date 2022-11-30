@@ -164,7 +164,8 @@
 + C: converter (sample diagnosed as AD in the middle of the study)
 + N: control
 
-Overall, we don't see expression level difference regarding AD vs. control in plasma exRNA level.
++ Overall, we don't see expression level difference regarding AD vs. control in plasma exRNA level.
++ When looking at the logitudinal change of plasma exRNA level, I also fail to identify any obvious pattern.
 ### t-test using ADRC1
 ![image](https://user-images.githubusercontent.com/46388325/204685941-6c3a7ef4-45ea-40c4-b2c9-156ae3dc6bd6.png)
 
@@ -176,3 +177,7 @@ Overall, we don't see expression level difference regarding AD vs. control in pl
 
 ## braak stage distribution using ADRC2 (exRNA)
 ![image](https://user-images.githubusercontent.com/46388325/204685778-dbd91c68-ddaf-49f5-b100-ba5547f825a7.png)
+
+## longitudinal change
+![image](https://user-images.githubusercontent.com/46388325/204701984-1abfef6a-96a2-49f3-b0b6-d81da76ab982.png)
+
