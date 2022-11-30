@@ -6,7 +6,7 @@
 + [APOE4 dose](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_limma_APOE_dose.md)
 
 ## Candidate genes
-+ LDs related genes (limma pipeline summary)
++ [LDs related genes (limma pipeline summary)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma)
   + [diagnosis](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/diagnosis)
   + [diagnosis and sex](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/diagnosis%26sex)
   + [APOE dose](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/APOE_dose)
