@@ -1,6 +1,6 @@
-# Summary of AMP-AD analysis regarding Chromogranin A (CgA)
+# Summary of analysis regarding Chromogranin A (CgA)
 
-## AMP-AD
+## AMP-AD (bulk-RNA seq analysis)
 + Regarding the dataset information, please go to this [page](https://github.com/ningxinkang/Chen_lab_analysis/blob/main/AMP-AD/AMP-AD_limma_diagnosis.md#1-dataset-info)!!
 + T-test and three-way ANOVA show consistent significant down-regulation (AD vs. control) in brain region BM36 (Parahippocampal gyrus)
 + No significant difference found when splitting samples using braak stage, but we can see a slight decrease in expression level of CHGA in samples with **braak level 4-6 vs. braak level 0-3** in Superior temporal gyrus (BM22) and Parahippocampal gyrus (BM36). This two region also show significant down-regulated in t-test and 3-way ANOVA.
@@ -159,14 +159,17 @@
 |MSBB_BM44_F                            |-0.0979239823336844|-0.181590873797117 |0.856371806849018|0.999016367348888|
 |MSBB_BM44_M                            |-0.477933241342158 |-0.750366847444102 |0.456496751043426|0.999928424555073|
 
-## ADRC (exRNA)
+## ADRC (plasma exRNA level analysis)
++ AD: Alzheimer's disease
++ C: converter (sample diagnosed as AD in the middle of the study)
++ N: control
 
+Overall, we don't see expression level difference regarding AD vs. control in plasma exRNA level.
 ### t-test using ADRC1
 ![image](https://user-images.githubusercontent.com/46388325/204685941-6c3a7ef4-45ea-40c4-b2c9-156ae3dc6bd6.png)
 
 ### t-test using ADRC2
 ![image](https://user-images.githubusercontent.com/46388325/204685973-d269e79f-1c94-45c5-8a47-b30cd6a37830.png)
-
 
 ## braak stage distribution using ADRC1 (exRNA)
 ![image](https://user-images.githubusercontent.com/46388325/204685713-8a32c1fe-807e-4c3d-b320-46301d047589.png)
