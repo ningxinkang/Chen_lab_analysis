@@ -13,6 +13,7 @@
   + [APOE dose and sex](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/APOE_dose%26sex)
   + [APOE carrier](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/APOE_carrier)
   + [APOE carrier and sex](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/APOE_carrier%26sex)
+  + [plot](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_limma/plot)
 + [LDs related genes (ANOVA)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_ANOVA)
 + [LDs related genes (t-test)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_t)
 + [LDs related genes (braak stage)](https://github.com/ningxinkang/Chen_lab_analysis/tree/main/AMP-AD_candidate_braak)
